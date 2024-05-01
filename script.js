@@ -47,7 +47,7 @@ aiCont.innerHTML = aiCont.innerHTML + "<div id='playerMessages'>No?</div>"
   setTimeout(s1c1_1, 1000);
 }
 function s1c1_1(){
-  aiCont.innerHTML = aiCont.innerHTML + "<div id='aiMessages'>Oh. Must've been another human.</div>"
+  aiCont.innerHTML = aiCont.innerHTML + "<div id='aiMessages'>Oh. Never mind</div>"
   opt2.style.display = ""
 }
 // Stage 1; Case 2
@@ -84,7 +84,7 @@ function s2c2(){
   setTimeout(s2c2_1, 1000)
 }
 function s2c2_1(){
-  aiCont.innerHTML = aiCont.innerHTML + "<div id='aiMessages'>huh. definitely not the person who harassed my brother.</div>"
+  aiCont.innerHTML = aiCont.innerHTML + "<div id='aiMessages'>huh..</div>"
   setTimeout(s2c2_2, 1000)
 }
 function s2c2_2(){
