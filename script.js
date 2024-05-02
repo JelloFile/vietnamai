@@ -353,7 +353,7 @@ function s4c17_1(){
   opt4.style.display = "none";
   document.getElementById('ai').style.display="none"
   document.getElementById('ohno').style.display="";
-  var audio = new Audio('/mathcompass/audio/themesong.mp3');
+  var audio = new Audio('https://jellofile.github.io/mathcompass/audio/themesong.mp3');
 audio.play();
 }
 function sarcasm(){
