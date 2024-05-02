@@ -353,7 +353,8 @@ function s4c17_1(){
   opt4.style.display = "none";
   document.getElementById('ai').style.display="none"
   document.getElementById('ohno').style.display="";
-  
+  var audio = new Audio('/mathcompass/themesong.mp3');
+audio.play();
 }
 function sarcasm(){
   var randomize = Math.floor(Math.random() * 10)+1
